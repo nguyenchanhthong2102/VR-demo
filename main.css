@@ -271,7 +271,16 @@
 .image-icon img{
     max-width:100%;
 }
-
+.footer{
+    width:100vw;
+    height:100px;
+    color:white;
+    box-shadow:0 10px 10px #fff;
+}
+.footer p{
+    text-align: center;
+    line-height:100px;
+}
 
 @media screen and (max-width:768px){
     #wrapper{
