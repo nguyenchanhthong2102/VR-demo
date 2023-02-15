@@ -274,7 +274,7 @@
 }
 
 
-@media screen and (min-width:300px) and (max-width:768px){
+@media screen and (max-width:768px){
     #wrapper{
         width:100vw;
     } 
@@ -290,6 +290,16 @@
    .title img{
     width:100%;
     object-fit: contain;
+   }
+   .title-name{
+    position:absolute;
+    top:40%;
+    left:10%;
+    font-size:60px;
+    background:transparent;
+    font-weight:bold;
+    width:400px;
+    color:white;
    }
    .nav_item{
     position:absolute;
@@ -343,7 +353,7 @@
     width:150px;
     height:100px;
     position:absolute;
-    top:10%;
+    top:5%;
     left:50%;
     transform:translate(-50%,0)
 }
