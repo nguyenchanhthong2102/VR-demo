@@ -65,7 +65,6 @@
 }
 .btn-cart .fa-solid{
     color:#fff;
-    margin-left:-50px;
     cursor:pointer;
     font-size:25px;
 }
@@ -272,8 +271,7 @@
     max-width:100%;
 }
 .footer{
-    width:100vw;
-    height:100px;
+    width:100%;
     color:white;
     box-shadow:0 10px 10px #fff;
 }
@@ -296,7 +294,7 @@
     width:100vw;
    }
    .title img{
-    width:100%;
+   width:500px;
     object-fit: contain;
    }
    .slider_nav{
@@ -360,6 +358,7 @@
     justify-content: center;
     column-gap:100px;
     row-gap:20px;
+    overflow: hidden;
    }
   
    .menu-bar{
